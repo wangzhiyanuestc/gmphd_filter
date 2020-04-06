@@ -1,3 +1,4 @@
+import tkinter
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy.linalg as lin
@@ -674,3 +675,5 @@ if __name__ == '__main__':
     plt.xlabel('time($sec$)')
     plt.legend()
     plt.title('Estimated cardinality VS actual cardinality')
+
+    plt.show()
